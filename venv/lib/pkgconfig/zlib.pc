@@ -1,0 +1,13 @@
+prefix=/home/rahul/Git/DataScience/venv
+exec_prefix=/home/rahul/Git/DataScience/venv
+libdir=/home/rahul/Git/DataScience/venv/lib
+sharedlibdir=/home/rahul/Git/DataScience/venv/lib
+includedir=/home/rahul/Git/DataScience/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

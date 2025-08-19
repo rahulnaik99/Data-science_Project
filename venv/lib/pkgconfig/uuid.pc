@@ -1,0 +1,11 @@
+prefix=/home/rahul/Git/DataScience/venv
+exec_prefix=/home/rahul/Git/DataScience/venv
+libdir=/home/rahul/Git/DataScience/venv/lib
+includedir=/home/rahul/Git/DataScience/venv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
